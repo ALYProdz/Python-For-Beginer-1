@@ -84,10 +84,23 @@ print(start_with_1)
 print(start_with)
 
 
+#Reverse of a text
+
+
+
+
 #There are a lot of thing that we can do with a string. type help(str) to see or dir(str)
 
 l_d = dir(str)
 
 l_d_1 = help(str)
+
+
+text = "Je suis un petit garcon tres malin."
+
+sorted_text = sorted(text)
+print(sorted_text)
+
+print(text[::-1])
 
 
